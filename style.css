@@ -1,7 +1,16 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
 body {
-    background-color
+  background-color: #f5b19c;
+  height: 1vh;
+  width: 80%;
+  margin: 10px, 50px;
+}
+a {
+  text-decoration: none;
+}
+
+/* grid */
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  justify-content: center;
 }
