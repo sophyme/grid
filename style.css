@@ -10,7 +10,7 @@ a {
 /* grid */
 .grid-container {
   display: grid;
-  grid-template-rows: 150px 300px 100px;
+  grid-template-rows: 150px 300px 80px;
   justify-content: center;
   align-content: stretch;
 }
@@ -32,19 +32,30 @@ a {
   align-items: center;
   width: 200px;
   height: 200px;
+  background-color: #f6c570;
+  margin: 0px 5px;
+  border: 1px solid #f2ae3a;
+  color: #f0ede3;
+  font-size: 20px;
+  font-weight: 600;
 }
+
 .grid-footer {
   display: grid;
   grid-template: repeat(2, 1fr), repeat(2, 1fr);
   text-align: center;
   align-items: center;
+  padding-top: 80px;
 }
 .grid-footer > .footer-logo {
   grid-column: span 2;
   color: #303960;
-  padding: 15px;
+  font-weight: 600;
+  opacity: 0.6;
 }
 .grid-footer > .footer-content a {
   padding: 15px;
-  color: #333;
+  color: #303960;
+  opacity: 0.6;
+  font-size: 13px;
 }
