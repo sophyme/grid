@@ -24,3 +24,8 @@ a {
   text-decoration: none;
   color: inherit;
 }
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+}
