@@ -1,6 +1,7 @@
 .wrapper {
   display: grid;
   grid-gap: 10px;
+  width: 70%;
 }
 /* header */
 .header {
