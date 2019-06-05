@@ -81,6 +81,17 @@ body {
 .box p {
   font-size: 0.8rem;
 }
+.box:hover {
+  animation: boxAni 0.5s ease-in-out forwards;
+}
+@keyframes boxAni {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
 
 /* Footer */
 footer {
