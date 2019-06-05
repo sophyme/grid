@@ -1,5 +1,6 @@
 @import "style.css";
 @import "./basic/basic.css";
+@import "./global.css";
 
 :root {
   --back: #f5b19c;
