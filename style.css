@@ -1,0 +1,22 @@
+:root {
+  --back: #f5b19c;
+  --dark: #303960;
+  --light: #f0ede3;
+  --point: #f6c570;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark);
+}
+
+body {
+  background-color: var(--back);
+}
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+}
+/* Navigation */
