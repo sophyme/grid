@@ -80,3 +80,9 @@ body {
 .box p {
   font-size: 0.8rem;
 }
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+}
