@@ -1,6 +1,6 @@
 .wrapper {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 20px;
   width: 70%;
 }
 /* header */
@@ -10,6 +10,7 @@
 }
 .header h1 {
   text-decoration-line: underline;
+  color: var(--dark);
 }
 
 /* Navigation */
