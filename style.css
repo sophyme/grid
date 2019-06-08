@@ -8,7 +8,7 @@
 }
 .box {
   display: flex;
-  background: var(--point);
+  background: var(--light);
   box-shadow: var(--shadow);
   flex-direction: column;
   justify-content: center;
